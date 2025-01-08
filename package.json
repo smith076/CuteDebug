@@ -1,0 +1,12 @@
+{
+  "name": "com.smith.cutedebug",
+  "version": "1.0.0",
+  "displayName": "Cute Debug",
+  "description": "A cute debugger with per user logs",
+  "unity": "2022.3",
+  "unityRelease": "38f1",
+  "author": {
+    "name": "Abhishek Jathan",
+    "email": "abhishekjathan321@gmail.com"
+  }
+}
