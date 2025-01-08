@@ -1,4 +1,4 @@
-# CuteDebug Class Documentation
+# CuteDebug 
 
 A static utility class that provides enhanced debugging capabilities in Unity, with author-specific debug filtering and conditional compilation support.
 
@@ -7,6 +7,8 @@ A static utility class that provides enhanced debugging capabilities in Unity, w
 - Set your own username or leave it blank
 - If you leave it blank then your unity id will be used as username
 - In the below example I've used "abhi" because that's what I've set in the CuteDebug Settings window
+- Remove **DEBUG_SYMBOL** from scripting symbols to conditionally compile out logs
+  - [Read this if you havent used scripting symbols before](https://docs.unity3d.com/6000.0/Documentation/Manual/custom-scripting-symbols.html#:~:text=You%20can%20define%20custom%20scripting%20symbols%20specific%20to,list%2C%20select%20Apply%20to%20apply%20your%20changes.%20)
 ```csharp
 using UnityEngine;
 
