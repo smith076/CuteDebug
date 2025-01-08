@@ -2,6 +2,29 @@
 
 A static utility class that provides enhanced debugging capabilities in Unity, with author-specific debug filtering and conditional compilation support.
 
+## Quick Start Guide
+- Go to Window->CuteDebug Settings
+- Set your own username or leave it blank
+- If you leave it blank then your unity id will be used as username
+- In the below example I've used "abhi" because that's what I've set in the CuteDebug Settings window
+```csharp
+using UnityEngine;
+
+public class Test : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        TestMethod();
+    }
+    [CuteDebug("abhi")]
+    public void TestMethod()
+    {
+        CuteDebug.Log("cute log",this.gameObject);
+    }
+}
+```
+
 ## Properties
 
 ### CurrentUser
